@@ -4,7 +4,7 @@ import collections
 
 def solution(id_list, report, k):
     answer = []
-    # 1.동일 유저에 대한 신고 -> 1번으로 침 -> set
+    # 1.동일 유저에 대한 신고. 1번으로 침 -> set
     report = list(set(report))
 
     # 2.신고한 유저 -> 신고당한 유저, 신고당한 유저-> 신고당한 횟수 dict 생성
