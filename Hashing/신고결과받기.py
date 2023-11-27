@@ -4,11 +4,8 @@ import collections
 
 def solution(id_list, report, k):
     answer = []
-<<<<<<< HEAD
     # 1.동일 유저에 대한 신고. 1번으로 침 -> set
-=======
     # 1.동일 유저에 대한 신고 -> 1번으로 침 -> set
->>>>>>> b6c4fc4 (upload 92334, 118666)
     report = list(set(report))
 
     # 2.신고한 유저 -> 신고당한 유저, 신고당한 유저-> 신고당한 횟수 dict 생성
